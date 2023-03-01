@@ -1,0 +1,15 @@
+.budget-container {
+	width: 100vw;
+	display: flex;
+	position: fixed;
+	justify-content: center;
+	bottom: 0;
+	background-color: plum;
+}
+
+.budget-info {
+  font-size: 20px;
+  color: white;
+  margin: 6px 20px;
+  font-weight: bold;
+}

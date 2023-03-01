@@ -1,0 +1,13 @@
+.header-container {
+  height: 70px;
+  width: 100vw;
+  background-color: plum;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-header {
+	margin: 0;
+	color: white;
+}

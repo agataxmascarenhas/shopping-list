@@ -1,8 +1,10 @@
+import "./Header.css";
+
 const Header = () => {
 
 	return (
-		<div>
-			<h1>Shopping List</h1>
+		<div className="header-container">
+			<h1 className="header-header">Shopping List</h1>
 		</div>
 	)
 };

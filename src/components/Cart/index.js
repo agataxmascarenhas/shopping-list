@@ -1,3 +1,5 @@
+import "./Cart.css"
+
 
 const budget = 30
 
@@ -7,11 +9,11 @@ const Cart = ({ currPrice }) => {
 
 
 	return (
-		<div>
-			<span>Budget: {budget}</span><br></br>
+		<div className="budget-container">
+			<span className="budget-info">Budget: {budget}</span><br></br>
 			{/* <input></input> */}
-			<span>Current Total: {currPrice.toFixed(2)}€</span><br></br>
-			<span>Current Value: {budgetValue.toFixed(2)}€</span>
+			<span className="budget-info">Current Total: {currPrice.toFixed(2)}€</span><br></br>
+			<span className="budget-info">Current Value: {budgetValue.toFixed(2)}€</span>
 		</div>
 
 	)

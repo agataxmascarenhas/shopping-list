@@ -5,8 +5,8 @@ import "./index.css"
 const ProductList = ({ currPrice, updatePrice}) => {
 
 	return (
-		<div>{productList.map((item) =>
-			<div key={item.id}>
+		<div className="products-container">{productList.map((item) =>
+			<div className="products-wrapper" key={item.id}>
 				<h2>{item.title} - {item.price}€</h2>
 				<span>Category: {item.category}</span><br></br>
 				<span>Importance: {item.importance}%</span><br></br>
